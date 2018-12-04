@@ -1,1 +1,45 @@
-ECHO is on.
+@font-face {
+    font-family: Mon-Black;
+    src: url(fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: Mon-Bold;
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Mon-ExtraBold;
+    src: url(fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Mon-Medium;
+    src: url(fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Mon-SemiBold;
+    src: url(fonts/Montserrat-SemiBold.ttf);
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+button:focus { outline: none;}
+button {cursor: pointer;}
+input:focus {outline: none;}
+
+body {
+    background: #1d262f;
+}

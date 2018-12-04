@@ -1,0 +1,224 @@
+.season-champions {
+	width: 280px;
+	height: auto;
+	float: left;	
+}
+
+.comp-title {
+	font-family: Mon-SemiBold;
+	font-size: 14px;
+	color: #5f6771;
+	margin-left: 10px;
+}
+
+.champions-box {
+	width: 100%;
+	height: 340px;
+	float: left;
+	margin-top: 16px;
+	border-radius: 4px;
+	background: #222b35;
+}
+
+.champions-box-header {
+	width: 100%;
+	height: 42px;
+	background: #192027;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.champions-box-header > p {
+	font-family: Mon-Bold;
+	font-size: 10px;
+	color: #69696a;
+	line-height: 42px;
+	margin-left: 14px;
+	float: left;
+}
+
+.champions-box-header > img {
+	float: right;
+	margin-top: 13px;
+	margin-right: 20px;
+}
+
+.player-tile {
+	width: 255px;
+	height: 47px;
+	float: left;
+	padding: 0px 12px;
+	margin-top: 10px;
+}
+
+.player-tile > img {
+	-webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.14);
+	-moz-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.14);
+	box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.14);	
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+
+.player-tile > .player-info {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	font-family: Mon-SemiBold;
+	font-size: 14px;
+	color: #fefefe;
+	cursor: pointer;
+	float: left;
+	margin-top: 6px;
+	line-height: 140%;
+}
+
+.player-tile > .player-info > span {
+	font-size: 11px;
+	color: #515f6f;
+	font-family: Mon-Bold;
+	cursor: default;
+	float: left;
+}
+
+.player-trophies {
+	float: right;
+	font-family: Mon-Medium;
+	color: #fefefe;
+	font-size: 14px;
+	line-height: 47px;
+	margin-right: 4px;
+}
+
+.other-clubs {
+	margin-left: 15px;
+}
+
+.other-clubs > .champions-box {
+	height: 280px;
+}
+
+.ads {
+	width: 400px;
+	height: 300px;
+}
+
+.yt-box {
+	border-radius: 4px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.leader-box {
+	width: 100%;
+	height: 67px;
+	background: #29333f;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.leader-box > .player-tile > .player-info > span {
+	color: #c17810;
+}
+
+.leader-box > .player-tile > .player-trophies > p {
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 4px;
+}
+
+.leader-box > .player-tile > .player-trophies > img {
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: -4px;
+	padding-left: 5px;
+}
+
+.stats-box {
+	width: 100%;
+	height: 60px;
+	background: #262f3a;
+	float: left;
+	margin-top: 13px;
+}
+
+.stats-left {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.stats-right {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.stats-top {
+	width: 100%;
+	height: 50%;
+	float: left;
+}
+
+.stats-top > p {
+	color: #828282;
+	font-family: Mon-Medium;
+	font-size: 12px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+	margin-top: 8px;
+	margin-left: 5px;
+}
+
+.stats-top > img {
+	float: left;
+	margin-left: 18px;
+	margin-top: 8px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.stats-bottom {
+	width: 100%;
+	height: 50%;
+	float: left;
+}
+
+.stats-bottom > p {
+	margin-left: 18px;
+	font-family: Mon-SemiBold;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.stats-box-normal-margin {
+	margin-top: 3px;
+}
+
+.prize-pool {
+	width: 100%;
+	height: 50px;
+	float: left;
+	text-align: center;
+}
+
+.prize-pool > p {
+	line-height: 50px;
+	font-family: Mon-SemiBold;
+	font-size: 14px;
+	color: #505a65;
+}
+
+.prize-pool > p > span {
+	font-size: 18px;
+	color: white;
+}
+
+.prize-pool > p > img {
+	padding: 0px 2px;
+}
+
+.leader-box > .main-button {
+	height: 40px;
+}
