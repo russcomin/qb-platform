@@ -45,8 +45,8 @@
 }
 
 .user-wrapper > .player-info > span {
-	font-size: 11px;
-	color: #515f6f;
+	font-size: 10px;
+	color: #3181a6;
 	font-family: Mon-Bold;
 	cursor: default;
 	float: left;
@@ -54,7 +54,7 @@
 
 .club-arrow {
 	float: right;
-	padding: 17px 5px 17px 15px;
+	padding: 17px 10px 17px 15px;
 	cursor: pointer;
 }
 

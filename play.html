@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quarterback v6</title>
+	<link rel="stylesheet" type="text/css" href="public/reset.css">
+	<link rel="stylesheet" type="text/css" href="public/style.css">
+	<link rel="stylesheet" type="text/css" href="public/page.css">
+	<link rel="stylesheet" type="text/css" href="public/header.css">
+	<link rel="stylesheet" type="text/css" href="public/left-bar.css">
+	<link rel="stylesheet" type="text/css" href="public/club-header.css">
+	<link rel="stylesheet" type="text/css" href="public/season-champions.css">
+	<link rel="stylesheet" type="text/css" href="public/play.css">
+</head>
+<body>
+	<div class="page-wrapper">
+		<div class="left-bar">
+			<div class="logo">
+				<img src="public/images/logo.png">
+			</div><!-- end logo -->
+			<div class="left-bar-wrapper">
+				<button type="button" class="main-button" onclick="play();"><img src="public/images/in-button.png">PLAY FOR THE CLUB</button>
+				<hr class="side-bar-line">
+				<ul class="side-navigation">
+					<li class="nav-button non-active" onclick="club();">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-10.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>My Club</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->
+					<li class="nav-button non-active">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-1.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>News & Updates</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->
+					<li class="nav-button non-active">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-7.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>Club Ranking</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->					
+					<li class="nav-button non-active freinds">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-2.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>Friends</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->
+					<li class="nav-button non-active">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-4.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>Achievments</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->
+					<li class="nav-button non-active">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-3.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>Shop & Raffles</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->					
+					<li class="nav-button non-active">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-8.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>My profile</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->
+					<li class="nav-button non-active">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-5.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>Settings</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->					
+					<li class="nav-button non-active">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-9.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>Support</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->
+				</ul><!-- end side-navigation -->
+			</div><!-- end left-bar-wrapper -->
+		</div><!-- end left-bar -->
+		<div class="main-view">	
+			<div class="header">
+				<div class="control-buttons">
+					<img src="public/images/icons/mini.png" class="mini-top">
+					<img src="public/images/icons/close.png">
+				</div><!-- end control-buttons -->
+				<div class="user-wrapper">
+					<img src="public/images/avatars/avatar-6.png" class="user-avatar">
+					<p class="player-info">Jovan Belic <br> <span>RTO's Gator Pit</span></p>
+					<img src="public/images/icons/club-arrow.png" class="club-arrow">
+				</div><!-- end user-wrapper -->
+				<div class="notification-wrapper">
+					<div class="notif-box">
+						<img src="public/images/icons/notif.png">
+					</div><!-- end notif-box -->
+				</div><!-- end notifcation-wrapper -->
+				<div class="balance">	
+					<p class="balance-t">Balance</p>
+					<img src="public/images/icons/coin.png">
+					<p class="coin-balance">1,875</p>
+				</div><!-- end balance -->
+			</div><!-- end header -->
+			<div class="play-wrapper">
+				<div class="text-nav">
+					<p class="p-active">Solo</p>
+					<p class="duo">Duo</p>
+					<p class="current">Active</p>
+				</div><!-- end text-nav -->
+				<hr class="nav-line"> 
+				<hr class="nav-line-active"> 
+				<div class="maps">
+					<p class="comp-title">Select game map:</p>
+					<div class="map-box active">
+						<div class="map-wrapper">
+							<p class="map-name">Summoner's Rift</p>
+							<div class="checkbox"><img src="public/images/active.png"></div>
+						</div><!-- end map-wrapper -->
+					</div><!-- end map-box -->					
+					<div class="map-box map-box-2">
+						<div class="map-wrapper">
+							<p class="map-name">Howling Abyss(ARAM)</p>
+							<div class="checkbox"></div>
+						</div><!-- end map-wrapper -->
+					</div><!-- end map-box -->
+				</div><!-- end maps -->
+				<div class="maps challanges">
+					<p class="comp-title">Select Challange:</p>
+					<div class="challenge-box chal-active">
+						<div class="checkbox"><img src="public/images/active.png"></div>
+						<img src="public/images/icons/chal-4.png" class="chal-img">
+						<p class="chal-name">Max Kills</p>
+					</div><!-- end challange-box -->
+					<div class="challenge-box chal-sec">
+						<div class="checkbox"></div>
+						<img src="public/images/icons/chal-1.png" class="chal-img">
+						<p class="chal-name">Max Assists</p>
+					</div><!-- end challange-box -->
+					<div class="challenge-box chal-sec">
+						<div class="checkbox"></div>
+						<img src="public/images/icons/chal-2.png" class="chal-img">
+						<p class="chal-name">Best KDA</p>
+					</div><!-- end challange-box -->
+					<div class="challenge-box chal-sec">
+						<div class="checkbox"></div>
+						<img src="public/images/icons/chal-3.png" class="chal-img">
+						<p class="chal-name">Max CS</p>
+					</div><!-- end challange-box -->																			
+				</div><!-- end maps -->
+				<div class="maps challanges">
+					<p class="comp-title">Live Challenge <span>(Refresh in: 9s)</span></p>
+					<div class="live-box">
+						<p class="live-box-title">Current Winner:</p>
+						<img src="public/images/avatars/avatar-2.png" class="current-winner">
+						<p class="winner-name">Sleepx mettos Po <br><span>RTO’s Gator Pit</span></p>
+					</div><!-- end liv-box -->										
+				</div><!-- end maps -->										
+			</div><!-- end play-wrapper -->
+		</div><!-- end main-view -->
+	</div><!-- end page-wrapper -->
+	<script src="views/public.js"></script>
+</body>
+</html>

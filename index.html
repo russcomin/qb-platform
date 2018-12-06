@@ -17,7 +17,7 @@
 				<img src="public/images/logo.png">
 			</div><!-- end logo -->
 			<div class="left-bar-wrapper">
-				<button type="button" class="main-button"><img src="public/images/in-button.png">PLAY FOR THE CLUB</button>
+				<button type="button" class="main-button" onclick="play();"><img src="public/images/in-button.png">PLAY FOR THE CLUB</button>
 				<hr class="side-bar-line">
 				<ul class="side-navigation">
 					<li class="nav-button active">
@@ -36,6 +36,14 @@
 							<p>News & Updates</p>
 						</div><!-- end nav-b-title -->
 					</li><!-- end nav-button -->
+					<li class="nav-button non-active">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-7.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>Club Ranking</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->					
 					<li class="nav-button non-active freinds">
 						<div class="nav-b-img">
 							<img src="public/images/nav/img-2.png">
@@ -46,18 +54,26 @@
 					</li><!-- end nav-button -->
 					<li class="nav-button non-active">
 						<div class="nav-b-img">
-							<img src="public/images/nav/img-3.png">
+							<img src="public/images/nav/img-4.png">
 						</div><!-- end nav-b-img -->
 						<div class="nav-b-title">
-							<p>Shop & Gifts</p>
+							<p>Achievments</p>
 						</div><!-- end nav-b-title -->
 					</li><!-- end nav-button -->
 					<li class="nav-button non-active">
 						<div class="nav-b-img">
-							<img src="public/images/nav/img-4.png">
+							<img src="public/images/nav/img-3.png">
 						</div><!-- end nav-b-img -->
 						<div class="nav-b-title">
-							<p>Balance & Withdraw</p>
+							<p>Shop & Raffles</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->					
+					<li class="nav-button non-active">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-8.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>My profile</p>
 						</div><!-- end nav-b-title -->
 					</li><!-- end nav-button -->
 					<li class="nav-button non-active">
@@ -67,7 +83,15 @@
 						<div class="nav-b-title">
 							<p>Settings</p>
 						</div><!-- end nav-b-title -->
-					</li><!-- end nav-button -->	
+					</li><!-- end nav-button -->					
+					<li class="nav-button non-active">
+						<div class="nav-b-img">
+							<img src="public/images/nav/img-9.png">
+						</div><!-- end nav-b-img -->
+						<div class="nav-b-title">
+							<p>Support</p>
+						</div><!-- end nav-b-title -->
+					</li><!-- end nav-button -->
 				</ul><!-- end side-navigation -->
 			</div><!-- end left-bar-wrapper -->
 		</div><!-- end left-bar -->
@@ -79,7 +103,7 @@
 				</div><!-- end control-buttons -->
 				<div class="user-wrapper">
 					<img src="public/images/avatars/avatar-6.png" class="user-avatar">
-					<p class="player-info">Jovan Belic <br> <span>Level 48</span></p>
+					<p class="player-info">Jovan Belic <br> <span>RTO's Gator Pit</span></p>
 					<img src="public/images/icons/club-arrow.png" class="club-arrow">
 				</div><!-- end user-wrapper -->
 				<div class="notification-wrapper">
@@ -233,5 +257,6 @@
 			</div><!-- end content-wrapper -->
 		</div><!-- end main-view -->
 	</div><!-- end page-wrapper -->
+	<script src="views/public.js"></script>
 </body>
 </html>
