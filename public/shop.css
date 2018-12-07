@@ -1,0 +1,228 @@
+.season-champions {
+	position: absolute;
+	margin-left: 610px;
+	margin-top: 89px;
+}
+
+.play-wrapper {
+	width: auto;
+	height: 100%;
+	padding-left: 20px;
+}
+
+.text-nav {
+	width: 100%;
+	height: auto;
+	padding: 22px 0px;
+	margin-top: 18px;
+}
+
+.text-nav > p {
+	transition: .2s;
+	font-family: Mon-Bold;
+	font-size: 18px;
+	color: #3a4550;
+	cursor: pointer;
+	float: left;
+}
+
+.text-nav > .p-active {
+	margin-left: 24px;
+}
+
+.text-nav > .duo {
+	margin-left: 65px;
+	color: #ffffff;
+}
+
+.text-nav > .current {
+	margin-left: 65px;
+}
+
+.text-nav > .discount {
+	margin-left: 65px;
+}
+
+.text-nav > .p-active:hover,.current:hover,.discount:hover  {
+	transition: .5s;
+	color: white;
+}
+
+.nav-line {
+	width: 566px;
+	border: none;
+	background: #313942;
+	height: 1px;
+	margin-top: 22px;
+}
+
+.nav-line-active {
+	width: 115px;
+	border: none;
+	height: 1px;
+	background: #35d23d;
+	margin-top: -1px;
+	margin-left: 123px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(53,210,61,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(53,210,61,1);
+	box-shadow: 0px 0px 5px 0px rgba(53,210,61,1);	
+}
+
+.search-box {
+	width: 550px;
+	height: auto;
+	padding: 18px 0px;
+}
+
+.search-skins {
+	width: 100%;
+	height: 40px;
+	border-radius: 25px;
+	background: #222b35;
+	border: 1px solid #303a43;
+	margin-left: 10px;
+	-webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.33);
+	-moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.33);
+	box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.33);
+	text-indent: 15px;
+	color: white;
+	font-family: Mon-SemiBold;
+}
+
+.search-skins::-webkit-input-placeholder {
+	font-family: Mon-SemiBold;
+	font-size: 11px;
+	color: #72787f;
+}
+
+.skin-lup {
+	position: absolute;
+	margin-left: 528px;
+	margin-top: -30px;
+	cursor: pointer;
+}
+
+.cat-box {
+	width: auto;
+	height: auto;
+	padding: 17px 12px;
+	background: #222b35;
+	float: left;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.cat-box-title {
+	font-family: Mon-SemiBold;
+	font-size: 14px;
+	color: #687079;
+	float: left;
+}
+
+.checkbox {
+	width: 16px;
+	height: 16px;
+	background: #222b35;
+	border: 1px solid #434c56;
+	float: right;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.27);
+	-moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.27);
+	box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.27);
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.checkbox > img {
+	float: left;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+.cat-box-first {
+	margin-left: 10px;
+}
+
+.cat-box-sec {
+	margin-left: 5px;
+}
+
+.skins-wrapper {
+	width: 560px;
+	padding: 0px 10px;
+	height: auto;
+	margin-top: 29px;
+	float: left;
+}
+
+.skin-tile {
+	width: 254px;
+	height: 150px;
+	border: 1px solid #303a43;
+	background: #222b35;
+	border-radius: 4px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+
+.janna {
+	background-image: url(images/nami.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.img-cover {
+	position: absolute;
+	margin-top: 49px;
+}
+
+.skin-name {
+	font-family: Mon-Bold;
+	font-size: 18px;
+	color: white;
+	margin-left: 10px;
+	margin-top: 95px;
+	position: absolute;
+}
+
+.skin-coin {
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 10px;
+}
+
+.skin-price {
+	position: absolute;
+	margin-top: 119px;
+	margin-left: 30px;
+	font-family: Mon-Medium;
+	font-size: 14px;
+	color: white;
+}
+
+.skin-top-fix { margin-top: 20px; }
+
+.nami {
+	margin-left: 20px;
+	background-image: url(images/p-nami.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.janna-fix {
+	margin-left: 20px;
+	background-image: url(images/nami.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.jax {
+	background-image: url(images/jax.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}

@@ -5,3 +5,7 @@ function play(argument) {
 function club(argument) {
 	document.location = "index.html";
 }
+
+function shop(argument) {
+	document.location = "shop.html";
+}

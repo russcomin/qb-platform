@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="public/left-bar.css">
 	<link rel="stylesheet" type="text/css" href="public/club-header.css">
 	<link rel="stylesheet" type="text/css" href="public/season-champions.css">
-	<link rel="stylesheet" type="text/css" href="public/play.css">
+	<link rel="stylesheet" type="text/css" href="public/shop.css">
 </head>
 <body>
 	<div class="page-wrapper">
@@ -61,11 +61,11 @@
 							<p>Achievments</p>
 						</div><!-- end nav-b-title -->
 					</li><!-- end nav-button -->
-					<li class="nav-button non-active">
+					<li class="nav-button active">
 						<div class="nav-b-img">
 							<img src="public/images/nav/img-3.png">
 						</div><!-- end nav-b-img -->
-						<div class="nav-b-title" onclick="shop();">
+						<div class="nav-b-title">
 							<p>Shop & Raffles</p>
 						</div><!-- end nav-b-title -->
 					</li><!-- end nav-button -->					
@@ -126,77 +126,55 @@
 			</div><!-- end header -->
 			<div class="play-wrapper">
 				<div class="text-nav">
-					<p class="p-active">Solo</p>
-					<p class="duo">Duo</p>
-					<p class="current">Active</p>
+					<p class="p-active">Raffles</p>
+					<p class="duo">Skins</p>
+					<p class="current">Champions</p>
+					<p class="discount">Discounts</p>
 				</div><!-- end text-nav -->
 				<hr class="nav-line"> 
-				<hr class="nav-line-active"> 
-				<div class="maps">
-					<p class="comp-title">Select game map:</p>
-					<div class="map-box active">
-						<div class="map-wrapper">
-							<p class="map-name">Summoner's Rift</p>
-							<div class="checkbox"><img src="public/images/active.png"></div>
-						</div><!-- end map-wrapper -->
-					</div><!-- end map-box -->					
-					<div class="map-box map-box-2">
-						<div class="map-wrapper">
-							<p class="map-name">Howling Abyss(ARAM)</p>
-							<div class="checkbox"></div>
-						</div><!-- end map-wrapper -->
-					</div><!-- end map-box -->
-				</div><!-- end maps -->
-				<div class="maps challanges">
-					<p class="comp-title">Select Challange:</p>
-					<div class="challenge-box chal-active">
-						<div class="checkbox"><img src="public/images/active.png"></div>
-						<img src="public/images/icons/chal-4.png" class="chal-img">
-						<p class="chal-name">Max Kills</p>
-					</div><!-- end challange-box -->
-					<div class="challenge-box chal-sec">
-						<div class="checkbox"></div>
-						<img src="public/images/icons/chal-1.png" class="chal-img">
-						<p class="chal-name">Max Assists</p>
-					</div><!-- end challange-box -->
-					<div class="challenge-box chal-sec">
-						<div class="checkbox"></div>
-						<img src="public/images/icons/chal-2.png" class="chal-img">
-						<p class="chal-name">Best KDA</p>
-					</div><!-- end challange-box -->
-					<div class="challenge-box chal-sec">
-						<div class="checkbox"></div>
-						<img src="public/images/icons/chal-3.png" class="chal-img">
-						<p class="chal-name">Max CS</p>
-					</div><!-- end challange-box -->																			
-				</div><!-- end maps -->
-				<div class="maps maps-live">
-					<p class="comp-title">Live Challenge <span>(Refresh in: 9s)</span></p>
-					<div class="live-box">
-						<p class="live-box-title">Current Winner:</p>
-						<img src="public/images/avatars/avatar-2.png" class="current-winner">
-						<p class="winner-name">Sleepx mettos Po <br><span>RTO’s Gator Pit</span></p>
-					</div><!-- end liv-box -->
-					<div class="live-box live-box-sec">
-						<p class="live-box-title">Current High Score:</p>
-						<p class="live-big-text">56</p>
-						<p class="live-small-text">ASSISTS</p>
-					</div><!-- end liv-box -->
-					<div class="live-box live-box-sec live-box-third">
-						<p class="live-box-title">Players:</p>
-						<p class="live-big-text">5/8</p>
-					</div><!-- end liv-box -->
-					<div class="live-box live-box-sec live-box-four">
-						<p class="live-box-title">Ends In:</p>
-						<p class="live-big-text">00:35:21</p>
-					</div><!-- end liv-box -->
-					<div class="chal-prize-pool">
-						<p>Current Prize Pool:<img src="public/images/icons/coin.png"><span>1,720</span></p>
-					</div><!-- end chal-prize-pool -->
-					<div class="start-button-wrapper">
-						<button type="button" class="main-button start-button" onclick="play();"><img src="public/images/in-button.png">START CHALLENGE</button>	
-					</div><!-- end start-button-wrapper -->
-				</div><!-- end maps -->										
+				<hr class="nav-line-active">
+				<div class="search-box">
+					<input type="text" name="search" class="search-skins" placeholder="Search Skins, Champions...">
+					<img src="public/images/icons/search.png" class="skin-lup">
+				</div><!-- end search-box -->
+				<div class="cat-box cat-box-first">
+					<p class="cat-box-title">All Skins</p>
+					<div class="checkbox"><img src="public/images/active.png"></div>
+				</div><!-- end cat-box -->
+				<div class="cat-box cat-box-sec">
+					<p class="cat-box-title">New Skins</p>
+					<div class="checkbox"><img src="public/images/active.png"></div>
+				</div><!-- end cat-box -->
+				<div class="cat-box cat-box-sec">
+					<p class="cat-box-title">Ultimate Skins</p>
+					<div class="checkbox"></div>
+				</div><!-- end cat-box -->
+				<div class="skins-wrapper">
+					<div class="skin-tile janna">
+						<img src="public/images/img-cover.png" class="img-cover">
+						<p class="skin-name">Forecast Janna</p>
+						<img src="public/images/icons/coin.png" class="skin-coin">
+						<p class="skin-price">30,250</p>
+					</div><!-- end skin-tile -->
+					<div class="skin-tile nami">
+						<img src="public/images/img-cover.png" class="img-cover">
+						<p class="skin-name">Program Nami</p>
+						<img src="public/images/icons/coin.png" class="skin-coin">
+						<p class="skin-price">30,250</p>
+					</div><!-- end skin-tile -->
+					<div class="skin-tile jax skin-top-fix">
+						<img src="public/images/img-cover.png" class="img-cover">
+						<p class="skin-name">God Staff Jax</p>
+						<img src="public/images/icons/coin.png" class="skin-coin">
+						<p class="skin-price">30,250</p>
+					</div><!-- end skin-tile -->
+					<div class="skin-tile janna-fix skin-top-fix">
+						<img src="public/images/img-cover.png" class="img-cover">
+						<p class="skin-name">Forecast Janna</p>
+						<img src="public/images/icons/coin.png" class="skin-coin">
+						<p class="skin-price">30,250</p>
+					</div><!-- end skin-tile -->											
+				</div><!-- end skins-wrapper -->	
 			</div><!-- end play-wrapper -->
 		</div><!-- end main-view -->
 	</div><!-- end page-wrapper -->
