@@ -9,3 +9,7 @@ function club(argument) {
 function shop(argument) {
 	document.location = "shop.html";
 }
+
+function clubs(argument) {
+	document.location = "clubs.html";
+}

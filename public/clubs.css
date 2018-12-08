@@ -1,0 +1,204 @@
+.side-navigation > .active > .nav-b-img {
+    margin-top: 0px;
+}
+
+.season-champions {
+	position: absolute;
+	margin-left: 610px;
+	margin-top: 89px;
+}
+
+.play-wrapper {
+	width: auto;
+	height: 100%;
+	padding-left: 20px;
+}
+
+.text-nav {
+	width: 100%;
+	height: auto;
+	padding: 22px 0px;
+	margin-top: 18px;
+}
+
+.text-nav > p {
+	transition: .2s;
+	font-family: Mon-Bold;
+	font-size: 18px;
+	color: #3a4550;
+	cursor: pointer;
+	float: left;
+}
+
+.text-nav > .p-active {
+	margin-left: 24px;
+	color: #ffffff;
+}
+
+.text-nav > .duo {
+	margin-left: 46px;
+}
+
+.text-nav > .current {
+	margin-left: 46px;
+}
+
+.text-nav > .discount {
+	margin-left: 46px;
+}
+
+.text-nav > .duo:hover, .current:hover, .discount:hover  {
+	transition: .5s;
+	color: white;
+}
+
+.nav-line {
+	width: 566px;
+	border: none;
+	background: #313942;
+	height: 1px;
+	margin-top: 22px;
+}
+
+.nav-line-active {
+	width: 135px;
+	border: none;
+	height: 1px;
+	background: #35d23d;
+	margin-top: -1px;
+	margin-left: 0px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(53,210,61,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(53,210,61,1);
+	box-shadow: 0px 0px 5px 0px rgba(53,210,61,1);	
+}
+
+.leaderboard {
+	width: 570px;
+	height: 550px;
+	background: #222b35;
+	border-radius: 4px;
+	margin-top: 23px;
+}
+
+.leaderboard-header {
+	width: 100%;
+	height: 40px;
+	background: #181f26;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	float: left;
+}
+
+.leaderboard-header > p {
+	float: left;
+	line-height: 40px;
+	font-family: Mon-Bold;
+	color: #47515a;
+	font-size: 12px;
+}
+
+.leaderboard-header > img {
+	width: 16px;
+	height: 16px;
+}
+
+.header-data-1 {
+	margin-left: 19px;
+}
+
+.header-data-2 {
+	margin-left: 125px;
+}
+
+.header-data-3 {
+	float: left;
+	margin-left: 205px;
+	margin-top: 11px;
+}
+
+.header-data-4 {
+	float: left;
+	margin-top: 12px;
+	margin-left: 73px;
+}
+
+.club-tile {
+	width: 100%;
+	height: 69px;
+	padding: 8px 0px;
+	background: #1c242d;
+	float: left;
+}
+
+.tile-col-1 {
+	width: 67px;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.tile-col-1 > p {
+	line-height: 69px;
+	font-family: Mon-Bold;
+	font-size: 24px;
+	color: #47515a;
+}
+
+.tile-col-2 {
+	width: 314px;
+	height: 100%;
+	float: left;
+}
+
+.tile-col-avatar {
+	width: 61px;
+	height: 61px;
+	background: #202933;
+	border: 2px solid #273039;
+	border-radius: 4px;
+	float: left;
+	margin-top: 1px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.tile-col-info {
+	font-family: Mon-ExtraBold;
+	font-size: 24px;
+	color: white;
+	display: inline-block;
+	vertical-align: middle; 
+	line-height: 90%;
+	margin-left: 13px;
+	margin-top: 12px;
+}
+
+.tile-col-info > span {
+	color: #c17810;
+	font-size: 12px;
+	font-family: Mon-Bold;
+}
+
+.tile-col-3 {
+	width: 77px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 69px;
+}
+
+.tile-col-4 {
+	width: 104px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 69px;
+}
+
+.tile-col-def {
+	font-family: Mon-SemiBold;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.club-tile-no-bg { background: none; }

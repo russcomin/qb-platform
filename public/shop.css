@@ -1,3 +1,7 @@
+.side-navigation > .active > .nav-b-img {
+    margin-top: -2px;
+}
+
 .season-champions {
 	position: absolute;
 	margin-left: 610px;

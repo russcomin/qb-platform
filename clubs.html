@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="public/left-bar.css">
 	<link rel="stylesheet" type="text/css" href="public/club-header.css">
 	<link rel="stylesheet" type="text/css" href="public/season-champions.css">
-	<link rel="stylesheet" type="text/css" href="public/play.css">
+	<link rel="stylesheet" type="text/css" href="public/clubs.css">
 </head>
 <body>
 	<div class="page-wrapper">
@@ -37,9 +37,9 @@
 							<p>News & Updates</p>
 						</div><!-- end nav-b-title -->
 					</li><!-- end nav-button -->
-					<li class="nav-button non-active" onclick="clubs();">
+					<li class="nav-button active">
 						<div class="nav-b-img">
-							<img src="public/images/nav/img-7.png">
+							<img src="public/images/nav/img-12.png">
 						</div><!-- end nav-b-img -->
 						<div class="nav-b-title">
 							<p>Club Ranking</p>
@@ -126,77 +126,129 @@
 			</div><!-- end header -->
 			<div class="play-wrapper">
 				<div class="text-nav">
-					<p class="p-active">Solo</p>
-					<p class="duo">Duo</p>
-					<p class="current">Active</p>
+					<p class="p-active">Division I</p>
+					<p class="duo">Division II</p>
+					<p class="current">Division III</p>
+					<p class="discount">Unranked</p>
 				</div><!-- end text-nav -->
 				<hr class="nav-line"> 
 				<hr class="nav-line-active"> 
-				<div class="maps">
-					<p class="comp-title">Select game map:</p>
-					<div class="map-box active">
-						<div class="map-wrapper">
-							<p class="map-name">Summoner's Rift</p>
-							<div class="checkbox"><img src="public/images/active.png"></div>
-						</div><!-- end map-wrapper -->
-					</div><!-- end map-box -->					
-					<div class="map-box map-box-2">
-						<div class="map-wrapper">
-							<p class="map-name">Howling Abyss(ARAM)</p>
-							<div class="checkbox"></div>
-						</div><!-- end map-wrapper -->
-					</div><!-- end map-box -->
-				</div><!-- end maps -->
-				<div class="maps challanges">
-					<p class="comp-title">Select Challange:</p>
-					<div class="challenge-box chal-active">
-						<div class="checkbox"><img src="public/images/active.png"></div>
-						<img src="public/images/icons/chal-4.png" class="chal-img">
-						<p class="chal-name">Max Kills</p>
-					</div><!-- end challange-box -->
-					<div class="challenge-box chal-sec">
-						<div class="checkbox"></div>
-						<img src="public/images/icons/chal-1.png" class="chal-img">
-						<p class="chal-name">Max Assists</p>
-					</div><!-- end challange-box -->
-					<div class="challenge-box chal-sec">
-						<div class="checkbox"></div>
-						<img src="public/images/icons/chal-2.png" class="chal-img">
-						<p class="chal-name">Best KDA</p>
-					</div><!-- end challange-box -->
-					<div class="challenge-box chal-sec">
-						<div class="checkbox"></div>
-						<img src="public/images/icons/chal-3.png" class="chal-img">
-						<p class="chal-name">Max CS</p>
-					</div><!-- end challange-box -->																			
-				</div><!-- end maps -->
-				<div class="maps maps-live">
-					<p class="comp-title">Live Challenge <span>(Refresh in: 9s)</span></p>
-					<div class="live-box">
-						<p class="live-box-title">Current Winner:</p>
-						<img src="public/images/avatars/avatar-2.png" class="current-winner">
-						<p class="winner-name">Sleepx mettos Po <br><span>RTO’s Gator Pit</span></p>
-					</div><!-- end liv-box -->
-					<div class="live-box live-box-sec">
-						<p class="live-box-title">Current High Score:</p>
-						<p class="live-big-text">56</p>
-						<p class="live-small-text">ASSISTS</p>
-					</div><!-- end liv-box -->
-					<div class="live-box live-box-sec live-box-third">
-						<p class="live-box-title">Players:</p>
-						<p class="live-big-text">5/8</p>
-					</div><!-- end liv-box -->
-					<div class="live-box live-box-sec live-box-four">
-						<p class="live-box-title">Ends In:</p>
-						<p class="live-big-text">00:35:21</p>
-					</div><!-- end liv-box -->
-					<div class="chal-prize-pool">
-						<p>Current Prize Pool:<img src="public/images/icons/coin.png"><span>1,720</span></p>
-					</div><!-- end chal-prize-pool -->
-					<div class="start-button-wrapper">
-						<button type="button" class="main-button start-button" onclick="play();"><img src="public/images/in-button.png">START CHALLENGE</button>	
-					</div><!-- end start-button-wrapper -->
-				</div><!-- end maps -->										
+				<div class="leaderboard">
+					<div class="leaderboard-header">
+						<p class="header-data-1">Rank</p>
+						<p class="header-data-2">Club</p>
+						<img src="public/images/icons/club-trophy.png" class="header-data-3">
+						<img src="public/images/icons/club-members.png" class="header-data-4">
+					</div><!-- end leaderboard-header -->
+					<div class="club-tile">
+						<div class="tile-col-1">
+							<p>#1</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-2">
+							<div class="tile-col-avatar">
+								<img src="public/images/clubs/avatar-1.png">
+							</div><!-- end avatar -->
+							<p class="tile-col-info">Fantasy Ninjas <br><span>Ninja Official</span>
+							</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-3">
+							<p class="tile-col-def">1,987</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-4">
+							<p class="tile-col-def">22,513</p>
+						</div><!-- end club-col -->								
+					</div><!-- end club-tile -->
+					<div class="club-tile club-tile-no-bg">
+						<div class="tile-col-1">
+							<p>#2</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-2">
+							<div class="tile-col-avatar">
+								<img src="public/images/clubs/avatar-2.png">
+							</div><!-- end avatar -->
+							<p class="tile-col-info">Super Charge <br><span>TripleAAABateries</span>
+							</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-3">
+							<p class="tile-col-def">1,624</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-4">
+							<p class="tile-col-def">17,153</p>
+						</div><!-- end club-col -->								
+					</div><!-- end club-tile -->					
+					<div class="club-tile">
+						<div class="tile-col-1">
+							<p>#3</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-2">
+							<div class="tile-col-avatar">
+								<img src="public/images/clubs/avatar-3.png">
+							</div><!-- end avatar -->
+							<p class="tile-col-info">Dragons <br><span>Mother Of Dragons</span>
+							</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-3">
+							<p class="tile-col-def">1,613</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-4">
+							<p class="tile-col-def">15,233</p>
+						</div><!-- end club-col -->								
+					</div><!-- end club-tile -->			
+					<div class="club-tile club-tile-no-bg">
+						<div class="tile-col-1">
+							<p>#4</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-2">
+							<div class="tile-col-avatar">
+								<img src="public/images/clubs/avatar-4.png">
+							</div><!-- end avatar -->
+							<p class="tile-col-info">DeadAmoung <br><span>Walking Dead</span>
+							</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-3">
+							<p class="tile-col-def">1,320</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-4">
+							<p class="tile-col-def">14,513</p>
+						</div><!-- end club-col -->								
+					</div><!-- end club-tile -->				
+					<div class="club-tile">
+						<div class="tile-col-1">
+							<p>#5</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-2">
+							<div class="tile-col-avatar">
+								<img src="public/images/clubs/avatar-5.png">
+							</div><!-- end avatar -->
+							<p class="tile-col-info">Tzopp Beasts <br><span>Im Tzoopppy</span>
+							</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-3">
+							<p class="tile-col-def">985</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-4">
+							<p class="tile-col-def">8,673</p>
+						</div><!-- end club-col -->								
+					</div><!-- end club-tile -->
+					<div class="club-tile club-tile-no-bg">
+						<div class="tile-col-1">
+							<p>#6</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-2">
+							<div class="tile-col-avatar">
+								<img src="public/images/clubs/avatar-6.png">
+							</div><!-- end avatar -->
+							<p class="tile-col-info">Navozka TM <br><span>Grizzzely Russia</span>
+							</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-3">
+							<p class="tile-col-def">883</p>
+						</div><!-- end club-col -->
+						<div class="tile-col-4">
+							<p class="tile-col-def">10,246</p>
+						</div><!-- end club-col -->								
+					</div><!-- end club-tile -->																
+				</div><!-- end leaderboard -->
 			</div><!-- end play-wrapper -->
 		</div><!-- end main-view -->
 	</div><!-- end page-wrapper -->
