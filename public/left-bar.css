@@ -34,7 +34,8 @@
 
 .main-button:hover{
 	transition: .2s;
-	border-bottom: 1px solid #30733e;
+	border-top: 1px solid #30733e;
+	border-bottom: 3px solid #3cc843;
 }
 
 .main-button > img {

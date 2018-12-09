@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="public/left-bar.css">
 	<link rel="stylesheet" type="text/css" href="public/club-header.css">
 	<link rel="stylesheet" type="text/css" href="public/season-champions.css">
-	<link rel="stylesheet" type="text/css" href="public/shop.css">
+	<link rel="stylesheet" type="text/css" href="public/raffle.css">
 </head>
 <body>
 	<div class="page-wrapper">
@@ -127,54 +127,94 @@
 			<div class="play-wrapper">
 				<div class="text-nav">
 					<p class="p-active" onclick="raffle();">Raffles</p>
-					<p class="duo">Skins</p>
+					<p class="duo" onclick="shop();">Skins</p>
 					<p class="current">Champions</p>
 					<p class="discount">Discounts</p>
 				</div><!-- end text-nav -->
 				<hr class="nav-line"> 
 				<hr class="nav-line-active">
-				<div class="search-box">
-					<input type="text" name="search" class="search-skins" placeholder="Search Skins, Champions...">
-					<img src="public/images/icons/search.png" class="skin-lup">
-				</div><!-- end search-box -->
-				<div class="cat-box cat-box-first">
-					<p class="cat-box-title">All Skins</p>
-					<div class="checkbox"><img src="public/images/active.png"></div>
-				</div><!-- end cat-box -->
-				<div class="cat-box cat-box-sec">
-					<p class="cat-box-title">New Skins</p>
-					<div class="checkbox"><img src="public/images/active.png"></div>
-				</div><!-- end cat-box -->
-				<div class="cat-box cat-box-sec">
-					<p class="cat-box-title">Ultimate Skins</p>
-					<div class="checkbox"></div>
-				</div><!-- end cat-box -->
-				<div class="skins-wrapper">
-					<div class="skin-tile janna">
-						<img src="public/images/img-cover.png" class="img-cover">
-						<p class="skin-name">Forecast Janna</p>
-						<img src="public/images/icons/coin.png" class="skin-coin">
-						<p class="skin-price">30,250</p>
-					</div><!-- end skin-tile -->
-					<div class="skin-tile nami">
-						<img src="public/images/img-cover.png" class="img-cover">
-						<p class="skin-name">Program Nami</p>
-						<img src="public/images/icons/coin.png" class="skin-coin">
-						<p class="skin-price">30,250</p>
-					</div><!-- end skin-tile -->
-					<div class="skin-tile jax skin-top-fix">
-						<img src="public/images/img-cover.png" class="img-cover">
-						<p class="skin-name">God Staff Jax</p>
-						<img src="public/images/icons/coin.png" class="skin-coin">
-						<p class="skin-price">30,250</p>
-					</div><!-- end skin-tile -->
-					<div class="skin-tile janna-fix skin-top-fix">
-						<img src="public/images/img-cover.png" class="img-cover">
-						<p class="skin-name">Forecast Janna</p>
-						<img src="public/images/icons/coin.png" class="skin-coin">
-						<p class="skin-price">30,250</p>
-					</div><!-- end skin-tile -->											
-				</div><!-- end skins-wrapper -->	
+				<div class="raffle-wrapper">
+					<p class="raffle-wrapper-title">On-Going:</p>
+					<div class="raffle-tile">
+						<div class="raffle-image-wrapper raffle-image-1">
+							<img src="public/images/img-cover.png" class="img-cover">
+							<p class="skin-name">Forecast Janna</p>
+							<p class="skin-winner">1 WINNER</p>		
+							<p class="skin-price">500</p>
+							<img src="public/images/icons/coin.png" class="skin-coin">
+						</div><!-- end raffle-image-wrapper -->
+						<div class="raffle-wrapper-info">
+							<div class="raffle-row-1">
+								<img src="public/images/icons/raffle-m.png">
+								<p>247</p>
+							</div><!-- end raffle-row-1 -->
+							<div class="raffle-row-2">
+								<img src="public/images/icons/clock.png">
+								<p>165:44:59</p>
+							</div><!-- end raffle-row-3 -->
+						</div><!-- end raffle-wrapper-info -->
+						<div class="tickets">
+							<p>You have: <span>15 Tickets</span></p>
+							<img src="public/images/icons/info.png">
+						</div><!-- end tickets -->
+						<button type="button" class="main-button buy-ticket">Buy Ticket</button>						
+					</div><!-- end raffle-tile -->
+					<div class="raffle-tile mar-tile">
+						<div class="raffle-image-wrapper raffle-image-2">
+							<img src="public/images/img-cover.png" class="img-cover">
+							<p class="skin-name">Program Nami</p>
+							<p class="skin-winner">1 WINNER</p>		
+							<p class="skin-price">500</p>
+							<img src="public/images/icons/coin.png" class="skin-coin">
+						</div><!-- end raffle-image-wrapper -->
+						<div class="raffle-wrapper-info">
+							<div class="raffle-row-1">
+								<img src="public/images/icons/raffle-m.png">
+								<p>173</p>
+							</div><!-- end raffle-row-1 -->
+							<div class="raffle-row-2">
+								<img src="public/images/icons/clock.png">
+								<p>195:61:35</p>
+							</div><!-- end raffle-row-3 -->
+						</div><!-- end raffle-wrapper-info -->
+						<div class="tickets">
+							<p>You have: <span>0 Tickets</span></p>
+							<img src="public/images/icons/info.png">
+						</div><!-- end tickets -->
+						<button type="button" class="main-button buy-ticket">Buy Ticket</button>						
+					</div><!-- end raffle-tile -->					
+				</div><!-- end raffle-wrapper -->
+				<div class="raffle-wrapper raffle-wrapper-2">
+					<p class="raffle-wrapper-title">Finished:</p>
+					<div class="raffle-tile">
+						<div class="raffle-image-wrapper raffle-image-3">
+							<img src="public/images/img-cover.png" class="img-cover">
+							<p class="skin-name">Forecast Janna</p>
+							<p class="skin-winner">1 WINNER</p>		
+						</div><!-- end raffle-image-wrapper -->
+						<div class="raffle-winner">
+							<div class="winner-avatar">
+								<img src="public/images/avatars/avatar-5.png">
+							</div><!-- end winner-avatar -->
+							<p class="winner-info">Sleepx metto <br><span>RTO’s Gator Pit</span></p>
+						</div><!-- end raffle-winner -->
+						<button type="button" class="main-button buy-ticket ticket-finished">Finished</button>		
+					</div><!-- end raffle-tile -->
+					<div class="raffle-tile mar-tile">
+						<div class="raffle-image-wrapper raffle-image-1">
+							<img src="public/images/img-cover.png" class="img-cover">
+							<p class="skin-name">Forecast Janna</p>
+							<p class="skin-winner">1 WINNER</p>		
+						</div><!-- end raffle-image-wrapper -->
+						<div class="raffle-winner">
+							<div class="winner-avatar">
+								<img src="public/images/avatars/avatar-2.png">
+							</div><!-- end winner-avatar -->
+							<p class="winner-info">Alan Watts is God<br><span>FantasyNinjas</span></p>
+						</div><!-- end raffle-winner -->
+						<button type="button" class="main-button buy-ticket ticket-finished">Finished</button>		
+					</div><!-- end raffle-tile -->					
+				</div><!-- end raffle-wrapper -->									
 			</div><!-- end play-wrapper -->
 		</div><!-- end main-view -->
 	</div><!-- end page-wrapper -->

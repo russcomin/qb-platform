@@ -13,3 +13,7 @@ function shop(argument) {
 function clubs(argument) {
 	document.location = "clubs.html";
 }
+
+function raffle(argument) {
+	document.location = "raffle.html";
+}

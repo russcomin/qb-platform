@@ -1,0 +1,314 @@
+.side-navigation > .active > .nav-b-img {
+    margin-top: -2px;
+}
+
+.season-champions {
+	position: absolute;
+	margin-left: 610px;
+	margin-top: 89px;
+}
+
+.play-wrapper {
+	width: auto;
+	height: 100%;
+	padding-left: 20px;
+}
+
+.text-nav {
+	width: 100%;
+	height: auto;
+	padding: 22px 0px;
+	margin-top: 18px;
+}
+
+.text-nav > p {
+	transition: .2s;
+	font-family: Mon-Bold;
+	font-size: 18px;
+	color: #3a4550;
+	cursor: pointer;
+	float: left;
+}
+
+.text-nav > .p-active {
+	margin-left: 24px;
+	color: #ffffff;
+}
+
+.text-nav > .duo {
+	margin-left: 65px;
+}
+
+.text-nav > .current {
+	margin-left: 65px;
+}
+
+.text-nav > .discount {
+	margin-left: 65px;
+}
+
+.text-nav > .duo:hover,.current:hover,.discount:hover  {
+	transition: .5s;
+	color: white;
+}
+
+.nav-line {
+	width: 566px;
+	border: none;
+	background: #313942;
+	height: 1px;
+	margin-top: 22px;
+}
+
+.nav-line-active {
+	width: 115px;
+	border: none;
+	height: 1px;
+	background: #35d23d;
+	margin-top: -1px;
+	margin-left: 0px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(53,210,61,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(53,210,61,1);
+	box-shadow: 0px 0px 5px 0px rgba(53,210,61,1);	
+}
+
+.raffle-wrapper {
+	width: 558px;
+	height: 315px;
+	float: left;
+	margin-top: 20px;
+}
+
+.raffle-wrapper-2 {
+	margin-top: 10px;
+}
+
+.raffle-wrapper-title {
+	font-family: Mon-SemiBold;
+	font-size: 12px;
+	color: #505a65;
+	margin-left: 17px;
+}
+
+.raffle-tile {
+	width: 254px;
+	height: 272px;
+	background: #222b35;
+	border-radius: 4px;
+	border: 1px solid #303a43;
+	margin-top: 17px;
+	display: inline-block;
+}
+
+.mar-tile {
+	margin-left: 18px;
+}
+
+.raffle-image-wrapper {
+	width: 100%;
+	height: 150px;	
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom: 1px solid #303a43;
+}
+
+.raffle-image-1 {
+	background-image: url(images/nami.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.raffle-image-2 {
+	background-image: url(images/p-nami.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.raffle-image-3 {
+	background-image: url(images/jax.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.img-cover {
+	position: absolute;
+	margin-top: 49px;
+}
+
+.skin-name {
+	font-family: Mon-Bold;
+	font-size: 18px;
+	color: white;
+	margin-left: 10px;
+	margin-top: 95px;
+	position: absolute;
+}
+
+.skin-winner {
+	position: absolute;
+	margin-top: 119px;
+	margin-left: 13px;
+	font-family: Mon-ExtraBold;
+	font-size: 14px;
+	color: #3cc843;
+}
+
+.skin-price {
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 210px;
+	font-family: Mon-Bold;
+	font-size: 14px;
+	color: white;
+}
+
+.skin-coin {
+	position: absolute;
+	margin-top: 121px;
+	margin-left: 190px;
+}
+
+.raffle-wrapper-info {
+	float: left;
+	width: 100%;
+	height: 30px;
+}
+
+.raffle-row-1 {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.raffle-row-1 > img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.raffle-row-1 > p {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Mon-Bold;
+	font-size: 14px;
+	color: #727b86;
+	margin-top: 10px;
+}
+
+.raffle-row-2 {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: right;
+}
+
+.raffle-row-2 > img {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+.raffle-row-2 > p {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Mon-Bold;
+	font-size: 14px;
+	color: #727b86;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.tickets {
+	width: 100%;
+	height: 35px;
+	float: left;
+	text-align: center;
+}
+
+.tickets > p {
+	font-family: Mon-SemiBold;
+	font-size: 11px;
+	color: #6c7784;
+	line-height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.tickets > p > span {
+	color: #ffffff;
+	letter-spacing: .4px;
+}
+
+.tickets > img {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.buy-ticket {
+	width: 226px;
+	margin-left: 14px;
+}
+
+.ticket-finished {
+	background: #222e35;
+	border: none;
+	border: 2px solid #434d59;
+	color: #707881;
+	text-shadow: none;
+}
+
+.ticket-finished:hover {
+	background: #222e35;
+	border: none;
+	border: 2px solid #434d59;
+	color: #707881;
+	text-shadow: none;
+	cursor: default;
+}
+
+.raffle-winner {
+	width: 100%;
+	height: 46px;
+	padding-top: 10px;
+	padding-bottom: 12px;
+}
+
+.winner-avatar {
+	width: 44px;
+	height: 44px;
+	background: #202933;
+	border-radius: 4px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 14px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.winner-avatar > img {
+	-webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.14);
+	-moz-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.14);
+	box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.14);
+}
+
+.winner-info {
+	font-family: Mon-SemiBold;
+	color: #fefefe;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.winner-info > span {
+	color: #c17810;
+	font-size: 10px;
+	font-family: Mon-Bold;
+}
