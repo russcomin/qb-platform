@@ -1,35 +1,38 @@
 .page-wrapper {
 	width: 1280px;
-	height: auto;
+	height: 3600px;
 	min-height: 720px;
 	margin: 0 auto;
 }
 
 .left-bar {
 	width: 250px;
-	height: 720px;
+	height: 100vh;
 	background: #242d37;
 	border-right: 1px solid #2a333d;
 	float: left;
+	position: fixed;
 }
 
 .main-view {
 	width: 1029px;
-	height: auto;
-	min-height: 720px;
+	height: 100%;
 	float: left;
+	margin-left: 250px;
 }
 
 .header {
-	width: 100%;
+	width: 1030px;
 	height: 60px;
 	background: #242d37;
 	border-bottom: 1px solid #2a333d;
+	position: fixed;
+	z-index: 100;
 }
 
 .content-wrapper {
 	width: 990px;
-	height: 390px;
+	height: 100%;
 	padding: 0px 20px;
 	float: left;
 }

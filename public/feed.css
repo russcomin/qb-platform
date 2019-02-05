@@ -1,0 +1,696 @@
+.feed {
+	width: 550px;
+	height: 3600px;
+	position: absolute;
+}
+
+.feed-item-padding {
+	background: #222b35;
+	padding: 12px 12px;
+	border-radius: 4px;
+}
+
+.leader-actions {
+	width: 100%;
+	height: 46px;
+	border: 1px solid #283039;
+	-webkit-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.18);
+	-moz-box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.18);
+	box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.18);
+}
+
+.actions-avatar {
+	float: left;
+}
+
+.leader-actions > input {
+	width: 350px;
+	height: 40px;
+	background: none;
+	border: none;
+	text-indent: 16px;
+	color: white;
+	font-family: Mon-SemiBold;
+	font-size: 12px;
+	margin-top: 2px;
+}
+
+.input-img {
+	float: right;
+	margin-top: 13px;
+	cursor: pointer;
+}
+.smile { margin-right: 10px; }
+
+.live-label {
+	width: 100%;
+	padding: 0px 12px;
+	height: 40px;
+}
+
+.rec-icon {
+	width: 8px;
+	height: 8px;
+	background: #e02323;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 25px 1px rgba(224,35,35,0.45);
+	-moz-box-shadow: 0px 0px 25px 1px rgba(224,35,35,0.45);
+	box-shadow: 0px 0px 25px 1px rgba(224,35,35,0.45);
+	margin-top: 12px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.live-label > p {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Mon-Bold;
+	font-size: 10px;
+	color: white;
+	letter-spacing: .6px;
+	margin-top: 14px;
+	margin-left: 2px;
+}
+
+.leader-post-video {
+	width: 100%;
+	height: auto;
+}
+
+.feed-item-header {
+	width: 100%;
+	height: 46px;
+}
+
+.user-posting-img {
+	float: left;
+}
+
+.user-posting {
+	font-family: Mon-SemiBold;
+	font-size: 14px;	
+	color: white;
+	letter-spacing: .4px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 4px;
+}
+
+.user-posting > img {
+	float: right;
+	margin-top: 3px;
+	margin-left: 6px;
+}
+
+.user-posting > span {
+	font-family: Mon-Bold;
+	font-size: 10px;
+	color: #59626c;
+	float: right;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+.user-posting-title {
+	position: absolute;
+	margin-left: 56px;
+	margin-top: 25px;
+	font-family: Mon-Bold;
+	font-size: 10px;
+	color: #c17810;
+	letter-spacing: .2px;
+}
+
+.aw-feed-header {
+	float: right;
+	margin-top: 14px;
+	margin-right: 10px;
+}
+
+.feed-item-text {
+	width: 100%;
+	height: auto;
+	padding: 18px 0px;
+}
+
+.feed-item-text > p {
+	margin-left: 4px;
+	color: white;
+	font-family: Mon-Medium;
+	font-size: 16px;
+	letter-spacing: .3px;
+}
+
+.feed-item-bottom {
+	width: 100%;
+	height: 35px;
+}
+
+.bottom-button {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.bottom-button > img { 
+	vertical-align: middle;
+	display: inline-block;
+ }
+
+.bottom-button > p { 
+	vertical-align: middle;
+	display: inline-block;
+	color: #525c68;
+	font-family: Mon-SemiBold;
+	font-size: 14px;
+	letter-spacing: .5px;
+ }
+
+.w-mar {
+	margin-left: 10px;
+}
+
+.live-video {
+	float: right;
+	margin-top: 10px;
+	font-family: Mon-Medium;
+	font-size: 12px;
+	color: white;
+	letter-spacing: .2px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.live-img {
+	float: left;
+	margin-right: 7px;
+	margin-top: -2px;
+}
+
+.sponsor-fix {
+	width: 100%;
+	height: 21px;
+	background: #1d262f;
+	position: sticky;
+	padding: 0px 12px;
+	top: 61px;
+	z-index: 10;
+}
+
+.season-sponsor {
+	width: 100%;
+	padding: 0px 11px;
+	height: 124px;
+	background: #222b35;
+	border: 1px solid #353e49;
+	border-radius: 4px;
+	position: sticky;
+	top: 82px;
+	background-image: url(images/feed/season-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+.sponsor-img {
+	float: left;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+.sponsor-title {
+	position: absolute;
+	font-family: Mon-ExtraBold;
+	font-size: 36px;
+	color: white;
+	margin-top: 25px;
+	margin-left: 110px;
+}
+
+.sponsor-sub {
+	position: absolute;
+	margin-left: 110px;
+	margin-top: 70px;
+	color: #a2a5aa;
+	font-family: Mon-Medium;
+	font-size: 18px;
+	letter-spacing: .4px;
+}
+
+.site {
+	width: 103px;
+	height: 34px;
+	border: 1px solid white;
+	float: right;
+	border-radius: 4px;
+	margin-top: 44px;
+	margin-right: 18px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 34px;
+}
+
+.site > img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.site > p {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	color: white;
+	font-family: Mon-Medium;
+	margin-left: 5px;
+}
+
+.leader-post-text {
+	width: 100%;
+	margin-top: 17px;
+}
+
+.comment-line {
+	width: 100%;
+	height: 1px;
+	border: none;
+	background: #343f4b;
+}
+
+.comment-header {
+	height: 46px;
+	padding: 19px 15px 0px 15px;
+}
+
+.badge {
+	width: 26px;
+	height: 22px;
+}
+
+.badge-l {
+	margin-left: 5px;
+}
+
+.comment > .feed-item-text {
+	padding-bottom: 5px;
+}
+
+.comment > .feed-item-bottom {
+	padding-bottom: 10px;
+}
+
+.feed-item-comment > .comment-header > .user-posting {
+	margin-top: 0px;
+}
+
+.feed-item-comment > .comment-header > .user-posting-title {
+	margin-top: 20px;
+}
+
+.comment-text {
+	padding: 10px 15px 10px 15px;
+}
+
+.comment-text {
+	color: white;
+	font-family: Mon-Medium;
+	font-size: 16px;
+	letter-spacing: .3px;
+}
+
+.me-posting {
+	padding: 10px 15px 0px 15px;
+	height: 46px;
+}
+
+.me-posting > input {
+	width: 350px;
+	height: 40px;
+	background: none;
+	border: none;
+	text-indent: 16px;
+	color: white;
+	font-family: Mon-SemiBold;
+	font-size: 12px;
+	margin-top: 2px;
+}
+
+.post-comment {
+	float: right;
+	margin-top: 5px;
+	width: 95px;
+	height: 37px;
+	border-radius: 4px;
+	background: #313d4a;
+	border: none;
+	color: #5a6674;
+	font-family: Mon-ExtraBold;
+	font-size: 12px;
+	letter-spacing: .5px;
+}
+
+.comment-smile {
+	position: absolute;
+	margin-top: 13px;
+	margin-left: -5px;
+	cursor: pointer;
+}
+
+.youtube {
+	margin-top: 17px;
+}
+
+.skins> .feed-item-header > .user-posting {
+	margin-top: 0px;
+}
+
+.skins > .feed-item-header > .user-posting-title {
+	margin-top: 20px;
+}
+
+.f-chall > .feed-challenge > .feed-challenge-header > .user-posting {
+	margin-top: 0px;
+}
+
+.f-chall > .feed-challenge > .feed-challenge-header > .user-posting-title {
+	margin-top: 20px;
+}
+
+.user-won > .feed-item-header > .user-posting {
+	margin-top: 0px;
+}
+
+.user-won > .feed-item-header > .user-posting-title {
+	margin-top: 20px;
+}
+
+
+/* SKINS */
+
+
+.skin-tile {
+	width: 254px;
+	height: 150px;
+	border: 1px solid #303a43;
+	background: #222b35;
+	border-radius: 4px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.janna {
+	background-image: url(images/nami.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.img-cover {
+	position: absolute;
+	margin-top: 49px;
+}
+
+.skin-name {
+	font-family: Mon-Bold;
+	font-size: 18px;
+	color: white;
+	margin-left: 10px;
+	margin-top: 95px;
+	position: absolute;
+}
+
+.skin-coin {
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 10px;
+}
+
+.skin-price {
+	position: absolute;
+	margin-top: 119px;
+	margin-left: 30px;
+	font-family: Mon-Medium;
+	font-size: 14px;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.action-div {
+	width: 235px;
+	height: 150px;
+	background: #242e39;
+	border-radius: 4px;
+	border: 1px solid #2e373f;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.action-div-title {
+	font-family: Mon-ExtraBold;
+	font-size: 20px;
+	color: white;
+	letter-spacing: .2px;
+	margin-top: 13px;
+}
+
+.action-div-desc {
+	font-family: Mon-Medium;
+	font-size: 12px;
+	color: #6b7680;
+	margin-top: 10px;
+}
+
+.action-div > button {
+	width: 190px;
+	margin-top: 14px;
+}
+
+.raffle > .skin-tile > .skin-price {
+	margin-left: 12px;
+}
+
+.jax {
+	background-image: url(images/jax.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.feed-challenge {
+	width: 278px;
+	height: 194px;
+	display: inline-block;
+	vertical-align: middle;	
+}
+
+.join-challenge {
+	width: 235px;
+	height: 192px;
+	background: #242e39;
+	border-radius: 4px;
+	border: 1px solid #2e373f;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: -5px;
+	text-align: center;
+	border-left: none;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px; 
+}
+
+.join-challenge > .action-div-title {
+	margin-top: 17px;
+}
+
+.prize-pool {
+	margin-top: 10px;
+	font-family: Mon-SemiBold;
+	font-size: 12px;
+	color: #60666e;
+}
+
+.prize-pool > img {
+	margin-left: 4px;
+}
+
+.prize-pool > span {
+	font-size: 18px;
+	color: white;
+	font-family: Mon-Medium;
+	margin-left: 2px;
+}
+
+.join-challenge > button { width: 190px; margin-top: 14px; }
+
+.feed-challenge-header {
+	width: 256px;
+	height: 46px;
+	padding: 10px 11px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	background: #29333f;
+}
+
+.user-leading {
+	float: right;
+	font-family: Mon-Medium;
+	font-size: 14px;
+	color: white;
+	margin-right: 4px;
+	margin-top: 15px;
+}
+
+.user-leading-img {
+	float: right;
+	margin-top: 15px;
+}
+
+.feed-challenge-box {
+	background: #1b212a;
+	width: 100%;
+	height: 63px;
+}
+
+.box-left {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.box-right {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.data-img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.data-title {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Mon-Medium;
+	font-size: 12px;
+	color: #828282;
+	margin-top: 10px;
+}
+
+.data-name {
+	font-family: Mon-SemiBold;
+	font-size: 16px;
+	color: white;
+	margin-left: 15px;
+	margin-top: 4px;
+	letter-spacing: .2px;
+}
+
+.top-fix {
+	margin-top: 2px;
+}
+
+.past-challenge-wrapper {
+	width: 269px;
+	height: 270px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.past-challenge-header {
+	padding: 11px 9px;
+	background: red;
+	height: 40px;
+	background: #242e39;
+	border: 1px solid #2e373f;
+	border-radius: 4px;
+}
+
+.past-data {
+	width: auto;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.past-data > p { margin: 0px; }
+.past-data > .data-img { margin: 0px; }
+.past-data > .data-name{ margin-top: 4px; }
+
+.past-left {
+	margin-left: 10px;
+}
+
+.coin-fix {
+	width: 13px;
+	padding-right: 4px;
+}
+
+.past-player {
+	padding: 11px 9px;
+	background: #1b212a;
+	height: 46px;
+}
+
+.past-score {
+	float: right;
+	font-family: Mon-SemiBold;
+	font-size: 24px;
+	color: white;
+	letter-spacing: .3px;
+	line-height: 46px;
+	margin-right: 5px;
+}
+
+.past-fix { margin-top: 1px; }
+
+.for-club {
+	width: 235px;
+	height: 268px;
+	background: #242e39;
+	border-radius: 4px;
+	border: 1px solid #2e373f;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.for-club > button { width: 190px; margin-top: 16px;}
+
+.two-challenges {
+	width: 180px;
+	height: 53px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+
+.challenge-left {
+	width: auto;
+	height: 100%;
+	float: left;
+	padding: 0px 15px;
+}
+
+.challenge-right {
+	width: auto;
+	height: 53px;
+	float: left;
+	padding: 0px 15px;
+}
+
+.challenge-left, .challenge-right > p {
+	font-family: Mon-SemiBold;
+	font-size: 14px;
+	color: #6c7988;
+}
+
+.challenge-right > img {
+	margin-top: -2px;
+}
